@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #4c4848;      /* Changed the background color */
+    color: #d9d9d9;                 /* Changed the default text color */
+  }
+  
+  /* Changes the color of hyperlinks before they are clicked*/
+  a:link{
+    color: #8585ff;
+  }
+  
+  /* Changes the color of hyperlinks after they are clicked, you can customize with 
+  a:hover (when the user mouses over link) and a:active (the moment link is clicked)*/
+  a:visited{
+    color: #a465a4;
+  }
+  
+  /* Set the spacing between the image and the table borders*/
+  #logoImages{
+    padding: 10px;
+  }
+  
+  /* Specifically set the spacing between the text and the left and bottom borders, 
+  this is to kinda hide the fact that the whole thing is a table*/
+  #textDesc{
+    padding-left: 50px;
+    padding-bottom: 5px;
+  }
+  
+  /* Setting the position to static and bottom to 0px so that it will always remain
+  at the bottom of the screen. Technically all elements are defaulted to static so 
+  this was unnecessary, but I encourage you to can play around with positions and get 
+  different results. https://www.w3schools.com/cssref/pr_class_position.php 
+  
+  You can test to see how the table interacts with text on the page by typing <p> and 
+  then "Lorem" + TAB button and you'll get a paragraph of sample text, copy paste it 
+  over and over again until it should meet the table!*/
+  table{
+    position: static;
+    bottom: 0px;
+    
+  }
+  
+  /* 
+  this can be used to get a better visual of what is happening in the table as we 
+  customize its values. It sets the background of each cell to be some color.
+  
+  tr{
+    background-color: gray;
+  } 
+  */
